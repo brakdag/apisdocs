@@ -1,0 +1,34 @@
+http://www.educacionales.diariouno.com.ar/educacionales/api/mensaje/buscar?fecha=2017-04-29
+
+Devuelve un json con información de los llamados. para esa fecha.
+
+http://www.educacionales.diariouno.com.ar/educacionales/api/zona/list
+
+devuelve una lista con la zonas.
+
+Estructura del json
+
+OBJETOS.
+_id
+establecimiento
+fecha
+fechadesde
+fechahasta
+bonificacion
+detalle
+movilidad
+llamados
+
+ESTABLECIMIENTO
+usuario_id
+email
+numero
+nombre
+dirección
+prefijonivel
+nivel
+zona
+departamento.
+
+
+[{"_id":"0","establecimiento":{"usuario_id":"55afb30011704ad01c66d10c","email":"dge2048@mendoza.gov.ar","numero":"048","nombre":"Ana Maria Polito de Fiondella","direccion":"25 de Mayo N° 65","prefijoNivel":2,"nivel":"2 - Especiales","zona":"Sur","departamento":"Alvear"},"fecha":1493078400000,"fechaDesde":1493078400000,"fechaHasta":1493557200000,"bonificacion":null,"detalle":"2-048 Ana María Polito de Fiondella calle 25 de Mayo N°65 General Alvear; ofrece el 25/04/17 en 2° llamado hasta agotar instancias incluyendo carpeta de antecedentes: un cargo Maestro de grado Atención Temprana (sección sordos y multimpedidos) Discapacidad Auditiva, turno alternado. 10 hs de Integración y Apoyo Discapacidad Auditiva, turno alternado. 30% zona. Movilidad Iselín y Buttini.","movilidad":null,"tipo":"Comunicado general","llamados":[{"asignatura":null,"ano":null,"division":null,"turno":null,"llamado":null,"hora":null,"duracion":null,"causa":null,"horas":null}],"zona":null,"departamento":null,"_md5":"25ecf0004221121743ebaf9961cd5de3"},
